@@ -1,0 +1,51 @@
+body{
+	 background-color: seashell;
+ }
+ 
+ h1 {
+	 color: rgb(7, 23, 248);
+	 font-size: 40px;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-family: "Mako Round Extra Light Italic";
+ }
+ 
+ h2 {
+	color: rgb(247, 62, 29);
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	font-family: "Mako Round Extra Light Italic";
+}
+
+ .parrafo {
+	text-align: left;
+	font-style:italic; 
+	line-height: 30pt;
+	font-size: 12pt;
+	color: #222;
+ }
+
+ .elaboro {
+	text-align: center;
+	font-style:italic;
+	font-weight: bold; 
+	font-size: 12pt;
+	color: #222;
+	font-family: "Mako Round Extra Light Italic";
+ }
+
+
+ @font-face{
+ 
+	 font-family:'Mako Round Extra Light Italic';
+	 src: url('../fonts/Mako Round Extra Light Italic.eot');
+	 src: url('../fonts/Mako Round Extra Light Italic.eot?#iefix') format('embedded-opentype'),
+		  url('../fonts/Mako Round Extra Light Italic.woff') format('woff'),
+		  url('../fonts/Mako Round Extra Light Italic.woff2') format('woff2'),
+		  url('../fonts/Mako Round Extra Light Italic.ttf') format('truetype'),
+		  url('../fonts/Mako Round Extra Light Italic.svg#Mako Round Extra Light Italic') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+ }
